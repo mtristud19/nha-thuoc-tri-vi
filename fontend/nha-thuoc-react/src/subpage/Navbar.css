@@ -1,0 +1,168 @@
+/* navbar */
+.nav_search input {
+  padding-right: 40px;
+  border-radius: 20px;
+}
+.nav_search {
+  position: relative;
+}
+.nav_search i {
+  position: absolute;
+  right: 0;
+  top: 8px;
+  padding: 2px 24px;
+
+  cursor: pointer;
+}
+
+.container-fluid {
+  max-width: 1200px;
+  margin: auto;
+}
+.navbar-brand {
+  display: flex;
+  justify-content: center;
+}
+.div {
+  border: black solid;
+}
+
+.dangnhap {
+  position: relative;
+  cursor: pointer;
+  min-width: 150px;
+
+  color: white;
+}
+.dangnhap i {
+  position: absolute;
+  left: 0;
+  padding: 10px;
+  color: white;
+}
+.dangnhap button {
+  padding-left: 30px;
+  border-radius: 20px;
+  color: white;
+}
+.navbardanhmuc {
+  max-width: 900px;
+  margin: auto;
+  padding: 0;
+}
+.navbardanhmuc ul {
+  margin: auto;
+}
+@media screen and (max-width: 991px) {
+  .btndangnhap {
+    display: none;
+  }
+  .btngiahang {
+    display: none;
+  }
+}
+
+.dropdown-menu {
+  min-width: 300px;
+}
+.btndangnhap,
+.btngiahang {
+  min-width: 150px;
+}
+.navmenu li {
+  font-weight: bold;
+}
+/* navbar */
+
+/* homebody */
+.dic {
+  background-color: #eaeffa;
+  border-radius: 30px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(47, 48, 48, 0.226);
+  border-radius: 20px;
+}
+.carousel-control-next,
+.carousel-control-prev {
+  height: 20px;
+  width: 50px;
+  position: absolute;
+  top: 50%;
+}
+
+.card:hover {
+  border-color: rgb(0, 102, 255);
+  box-shadow: 0 0px 20px 0 rgba(0, 0, 0, 0.2);
+}
+.card {
+  background-color: white;
+  border-radius: 15px;
+}
+.card-body {
+  padding: 0;
+}
+.btnthemgiohang {
+  text-align: center;
+  margin: 20px 0;
+}
+.hinhanhcard {
+  padding-top: 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.xemthem {
+  text-decoration: none;
+  width: 7.5rem;
+}
+
+.baivietloncochu {
+  padding-left: 10%;
+  align-items: end;
+
+  display: flex;
+  height: 160px;
+  width: 100%;
+}
+
+.khung {
+  min-height: 300px;
+}
+.tieudebaiviet a {
+  text-decoration: none;
+  color: black;
+}
+.hinhbaivietn img,
+.baivietl img {
+  border-radius: 15px;
+}
+/* homebody */
+.raw {
+  background-color: #0d6efd;
+}
+
+.linktrang {
+  list-style: none;
+  color: white;
+}
+.linktrang a {
+  text-decoration: none;
+  color: white;
+}
+.linktrang a:hover {
+  color: rgb(0, 247, 255);
+}
+.thongtinfooter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20px;
+  color: white;
+}
+.tieudecard > a {
+  text-decoration: none;
+  color: black;
+}
